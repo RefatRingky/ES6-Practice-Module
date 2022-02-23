@@ -15,10 +15,7 @@ const add3 = function(num1,num2) {
 const add4 = (num1,num2) => num1+num2;
 
 const sum = add1(10,20);
-console.log(sum);
 const sum2 = add2(10,20);
-console.log(sum2);
 const sum3 = add3(10,20);
-console.log(sum3);
 const sum4 = add4(10,20);
-console.log(sum4);
+console.log(sum,sum2,sum3,sum4);
