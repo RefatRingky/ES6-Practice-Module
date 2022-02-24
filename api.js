@@ -11,8 +11,12 @@ function loadUser(){
 }
 // display user individually
 function diplayUser(data) {
+    const ul = document.getElementById('user');
     for(const user of data){
-        console.log(user.name);
+        // console.log(user.name);
+        const li = document.createElement('li');
+        li.innerText = user.name;
+        ul.appendChild(li);
     }
 }
 // load post from json placholder
